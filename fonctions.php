@@ -12,7 +12,7 @@ if(!isset($_SESSION['login'])){
         if(!empty($_POST['login']) and !empty($_POST['password']) and !empty($_POST['confirmpassword']) )
         {
     
-            $connexion=mysqli_connect('localhost','root','','camping');
+            $connexion=mysqli_connect('localhost','camping','camping123','camping');
             $requete0="SELECT * FROM utilisateurs WHERE login='".$_POST['login']."'";
             $query0=mysqli_query($connexion,$requete0);
             $resultat0=mysqli_fetch_row($query0);
@@ -74,7 +74,7 @@ if(!isset($_SESSION['login'])){
     {
         if(!empty($_POST['login']) and !empty($_POST['password']))
         {
-            $connexion=mysqli_connect('Localhost','root','','camping');
+            $connexion=mysqli_connect('localhost','camping','camping123','camping');
             $requete= "SELECT Id,login,password FROM utilisateurs WHERE login='".$_POST['login']."'";
             $query=mysqli_query($connexion,$requete);
             $resultat=mysqli_fetch_row($query);

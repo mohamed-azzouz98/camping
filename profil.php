@@ -12,7 +12,7 @@
         <main id="mainprofil">
             <?php
 
-            $connexion= mysqli_connect("localhost","root","","camping");
+            $connexion= mysqli_connect("localhost","camping","camping123","camping");
 
             $requeteInfosProfil = "SELECT * FROM utilisateurs WHERE id = '".$_SESSION['id']."'";
             $queryInfosProfil = mysqli_query($connexion, $requeteInfosProfil);
@@ -32,7 +32,7 @@
                     echo '<h1>'.'Toutes vos réservations'.'</h1>';
 
                     // TOUTES LES RESERVATIONS DE L'UTILISATEUR CONNECTEE
-                    $connexion=mysqli_connect("localhost","root","","camping");
+                    $connexion=mysqli_connect("Localhost","camping","camping123","camping");
                     $requeteInfosResa="SELECT * FROM reservationplace INNER JOIN utilisateurs ON reservationplace.id_utilisateur=utilisateurs.Id WHERE login='".$resultatInfosProfil['login']."' ORDER BY datedebut ASC";
                     $queryInfosResa=mysqli_query($connexion,$requeteInfosResa);
                     $resultatInfosResa=mysqli_fetch_all($queryInfosResa);
@@ -136,7 +136,7 @@
             <?php
 
             if(isset($_GET['supp']) and $_GET['supp']==true){
-                $connexion=mysqli_connect('localhost','root','','camping');
+                $connexion=mysqli_connect('localhost','camping','camping123','camping');
                 $requete="DELETE FROM utilisateurs WHERE login='".$resultatInfosProfil['login']."'";
                 $query=mysqli_query($connexion,$requete);
                 // echo $requete;

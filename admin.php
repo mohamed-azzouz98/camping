@@ -16,7 +16,7 @@
 
                     echo '<p id="titreAdmin">Welcome Mr. Admninistrator'.'</p><br/>';
 
-                    $connexion=mysqli_connect("Localhost","root","","camping");
+                    $connexion=mysqli_connect("Localhost","camping","camping123","camping");
                                        
 
 
@@ -364,7 +364,7 @@
                     // SUPPRESSION RESERVATION
                     
                     
-                    $connexion=mysqli_connect("Localhost","root","","camping");
+                    $connexion=mysqli_connect("Localhost","camping","camping123","camping");
                     $requetePrix = "SELECT jour,borne,disco,yfs FROM tarif";
                     $queryPrix = mysqli_query($connexion,$requetePrix);
                     $resultatPrix = mysqli_fetch_all($queryPrix);

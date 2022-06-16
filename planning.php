@@ -14,7 +14,7 @@
                 if(isset($_SESSION['login']))
                 {
 
-                    $connexion=mysqli_connect("Localhost","root","","camping");
+                    $connexion=mysqli_connect("Localhost","camping","camping123","camping");
                     $requete="SELECT * FROM reservationplace INNER JOIN utilisateurs ON reservationplace.id_utilisateur=utilisateurs.Id ORDER BY datedebut ASC";
                     $query=mysqli_query($connexion,$requete);
                     $resultat=mysqli_fetch_all($query);

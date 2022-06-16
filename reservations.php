@@ -16,7 +16,7 @@
                        {
                            // date_default_timezone_set('Europe/Paris');
 
-                            $connexion=mysqli_connect("Localhost","root","","camping");
+                            $connexion=mysqli_connect("Localhost","camping","camping123","camping");
                             $requetetarif = "SELECT jour,borne,disco,yfs FROM tarif";
                             $querytarif=mysqli_query($connexion,$requetetarif);
                             $resultattarif=mysqli_fetch_all($querytarif);
@@ -31,7 +31,7 @@
                             
                             
                             
-                            <section = id="sectionFormReservation">
+                            <section id="sectionFormReservation">
 
 
                                 <form action="" method="post" id="formReservation">
@@ -122,7 +122,7 @@
                             $dateFin2 = strtotime($datef);
 
 
-                            $connexion=mysqli_connect("Localhost","root","","camping");
+                            $connexion=mysqli_connect("Localhost","camping","camping123","camping");
                            
                            $requetehabitat="SELECT habitat,datedebut,datefin,emplacement FROM reservationplace WHERE (emplacement='".$place."' AND $datedebut BETWEEN datedebut AND datefin) OR (emplacement='".$place."' and $datefin BETWEEN datedebut AND datefin) OR (emplacement='".$place."' and datedebut BETWEEN $datedebut AND $datefin AND datefin BETWEEN $datedebut AND $datefin) OR (emplacement='".$place."' and $datedebut BETWEEN datedebut AND datefin AND $datefin BETWEEN datedebut AND datefin)";
 
@@ -204,7 +204,7 @@
                                 if(($placedispo>=2 and $_GET['habitat']=='cpgcar') or ($placedispo>=1 and $_GET['habitat']=='tente'))
                                 {
 
-                                    $connexion=mysqli_connect("Localhost","root","","camping");
+                                    $connexion=mysqli_connect("Localhost","camping","camping123","camping");
                                     $requetereservation="INSERT INTO reservationplace (datedebut,datefin,emplacement,habitat,dureesejour,borne,disco,yfs,prixtotal,id_utilisateur) VALUES ('".$datedebut."','".$datefin."','".$place."','".$habitat."','".$duree."','".$_POST['borne']."','".$_POST['disco']."','".$_POST['yfs']."','".$totalsejour."','".$_SESSION['id']."') ";
                                     $queryreservation=mysqli_query($connexion,$requetereservation);
 

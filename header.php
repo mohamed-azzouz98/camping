@@ -15,7 +15,7 @@
 			<a href="index.php?pg=1">Page principale</a><br>
 			<a href="planning.php">Planning</a><br>
 			<a href="profil.php">Profil</a><br>
-			<a href="deconnexion">Déconnexion</a><br>
+			<a href="deconnexion.php">Déconnexion</a><br>
 		
 
 		<?php
