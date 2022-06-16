@@ -1,0 +1,741 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding-bottom: 10%;
+}
+
+
+/*-----------------------HEADER / FOOTER-------------------*/
+/*-----------------------HEADER / FOOTER-------------------*/
+/*-----------------------HEADER / FOOTER-------------------*/
+/*-----------------------HEADER / FOOTER-------------------*/
+/*-----------------------HEADER / FOOTER-------------------*/
+/*-----------------------HEADER / FOOTER-------------------*/
+/*-----------------------HEADER / FOOTER-------------------*/
+/*-----------------------HEADER / FOOTER-------------------*/
+
+header{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0 ;
+}
+
+#topofheader{
+    height: 100px;
+    background-color: rgb(253, 179, 40);
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+#sardinelogo{
+    width: 50%;
+}
+
+#h1titre{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Fjalla One';
+}
+
+#headermenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    background-color: rgba(255, 135, 79, 0.87);
+    font-family: 'Roboto';
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+}
+
+header a
+{
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: white;
+}
+
+#headermenu a:hover{
+    background-color: rgba( 238, 238, 238, 0.281);
+}
+footer{
+    background-image: url(img/footer.jpg);
+    opacity: 0.8;
+    font-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100px;
+    position: absolute;
+    bottom: 0 ;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: blue;
+}
+
+footer a
+{
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: black;
+}
+
+#footermenu{
+    text-align: center;
+    width: 20%;
+    height: auto;
+    font-size:17px;
+    font-family: 'Roboto';
+    
+}
+
+#footermenu a:hover{
+    background-color: rgba( 238, 238, 238, 0.281);
+}
+
+#logo{
+    margin-left: 5%;
+    width: 20%;
+}
+
+#sectionReseaux{
+    width: 20%;
+    margin:0 2% 0 0;
+}
+
+
+.reseaux{
+    width: 20%;
+}
+
+
+
+
+/*-----------------------INDEX-------------------*/
+/*-----------------------INDEX-------------------*/
+/*-----------------------INDEX-------------------*/
+/*-----------------------INDEX-------------------*/
+/*-----------------------INDEX-------------------*/
+/*-----------------------INDEX-------------------*/
+/*-----------------------INDEX-------------------*/
+/*-----------------------INDEX-------------------*/
+
+
+#bodyindex{
+    text-align: center;
+    background-image: url(img/index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10%;
+    height: auto;
+    margin: 0;
+
+}
+
+#mainindex{
+    
+}
+
+
+#titreIndex{
+    background-image: radial-gradient(red, green);
+    font-size: 30px ;
+    width: 100% ;
+    padding-top: 1px;
+    height: 150px ;
+    text-align: center;
+}
+
+#titreIndex a{
+    color: white;
+}
+
+
+
+.tableindex{
+    font-size: 2.5vw;
+    margin: 2% auto 5%;
+    padding:15px;
+    text-align: center;
+    border: 4px black solid;
+    border-radius: 1em;
+    background-color: rgba(255, 179, 37, 0.521);
+    color: white;
+    box-shadow: 3px 3px 13px 3px #ffef5d;
+
+}
+
+.tableindex a {
+    color: white ;
+}
+
+.textintrotitre{
+    padding: 1% 2%;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: rgba(245, 222, 179, 0.767);
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+.textintro{
+    /* margin:1% 0 0; */
+    padding: 1% 2%;
+    width: 50%;
+    margin:0 auto;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: rgba(245, 222, 179, 0.753);
+    font-family: cursive;
+    border-radius: 1em;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/*-----------------------INSCRIPTION-------------------*/
+/*-----------------------INSCRIPTION-------------------*/
+/*-----------------------INSCRIPTION-------------------*/
+/*-----------------------INSCRIPTION-------------------*/
+/*-----------------------INSCRIPTION-------------------*/
+/*-----------------------INSCRIPTION-------------------*/
+/*-----------------------INSCRIPTION-------------------*/
+/*-----------------------INSCRIPTION-------------------*/
+
+#bodyInscription{
+    padding-top: 10%;
+    background-image: url("img/inscription.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+#fullFormInscription{
+    
+    height: 300px ;
+    margin: 0 auto ;
+    margin-top: 5% ;
+    padding-top: 3% ;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-align: center;
+    border : 10px solid white   ;
+}
+
+#titreInscription{
+    color: white ;
+    font-size: 30px ;
+    background-color: rgb(255, 0, 0, 0.5);
+    width: 50%;
+    margin: 0 auto ;
+}
+
+#formInscription{
+    width: 50% ;
+    margin: 0 auto ;
+    color: red ;
+    background-color:  rgb(255, 223, 195, 0.5) ;
+}
+
+#buttonInscription{
+    width: 30% ;
+    margin: 0 auto ;
+    margin-top: 3%;
+    background-color: rgb(255, 136, 62, 0.5);
+    border-radius: 10px;
+
+}
+
+
+#buttonInscription input {
+    border-radius: 10px ;
+    
+}
+
+
+
+
+/*-----------------------CONNEXION-------------------*/
+/*-----------------------CONNEXION-------------------*/
+/*-----------------------CONNEXION-------------------*/
+/*-----------------------CONNEXION-------------------*/
+/*-----------------------CONNEXION-------------------*/
+/*-----------------------CONNEXION-------------------*/
+/*-----------------------CONNEXION-------------------*/
+/*-----------------------CONNEXION-------------------*/
+
+#bodyConnexion{
+    background-image: url(img/connexion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+}
+
+#fullFormConnexion{
+   height: 300px ;
+    margin: 0 auto ;
+    margin-top: 5% ;
+    padding-top: 3% ;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-align: center;
+    border : 10px solid white   ;
+}
+
+#titreConnexion{
+    color: white ;
+    font-size: 30px ;
+    background-color: rgb(255, 0, 0, 0.5);
+    width: 50%;
+    margin: 0 auto ;
+}
+
+#formConnexion{
+    font-size: 20px;
+    
+    width: 50% ;
+    margin: 0 auto ;
+    color: red ;
+    background-color:  rgb(255, 223, 195, 0.5) ;
+}
+
+#buttonConnexion{
+    width: 30% ;
+    margin: 0 auto ;
+    margin-top: 3%;
+    background-color: rgb(255, 136, 62, 0.5);
+    border-radius: 10px;
+
+}
+
+
+#buttonConnexion input {
+    border-radius: 10px ;
+    
+}
+
+
+
+/*-----------------------Reservation-------------------*/
+/*-----------------------Reservation-------------------*/
+/*-----------------------Reservation-------------------*/
+/*-----------------------Reservation-------------------*/
+/*-----------------------Reservation-------------------*/
+/*-----------------------Reservation-------------------*/
+/*-----------------------Reservation-------------------*/
+/*-----------------------Reservation-------------------*/
+
+#mainReservation{
+    padding-top : 10% ;
+    background-image: url(img/resa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+#sectionFormReservation{
+    background-color: rgb(0, 0, 0, 0.5);
+    border : 10px solid white ;
+    height:20%;
+}
+
+#formReservation{
+    width: 44%;
+    height: 50%;
+    margin: 2% auto;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 2% 2%;
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+    border-radius: 2em;
+}
+
+#formReservation>input{
+    font-size: 1vw;
+}
+
+.erreurResa{
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white ;
+    font-size: 30px ;
+    margin-top: 5%;
+}
+
+.placeDispo{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5); 
+    color: white;
+    font-size: 30px ;
+    margin-top: 5%;
+}
+
+.infoResaUser{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto ;
+    color: white ;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 30px ;
+    margin-top: 5%;
+}
+
+
+p{
+    margin: 0 auto 1%;
+}
+
+/*-----------------------PROFIL-------------------*/
+/*-----------------------PROFIL-------------------*/
+/*-----------------------PROFIL-------------------*/
+/*-----------------------PROFIL-------------------*/
+/*-----------------------PROFIL-------------------*/
+/*-----------------------PROFIL-------------------*/
+/*-----------------------PROFIL-------------------*/
+/*-----------------------PROFIL-------------------*/
+
+#bodyprofil{
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 128, 0, 0.616), rgba(0, 195, 255, 0.63),rgba(0, 132, 255, 0.555));
+    padding-top: 10%;
+    height: auto;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.h3{
+    font-size: xx-large;
+}
+
+.nouvelleresa{
+    font-size:x-large;
+    margin: 100 auto;
+    padding: 1%;
+    width: 20%;
+    background-color: blanchedalmond;
+    border:2px black solid;
+    border-radius: 2em;
+    box-shadow: 3px 3px 15px 3px #000000;
+}
+
+#mainprofil{
+    padding-top: 5%;
+    background-image: url(img/profilbackground.jpg);
+    background-size: cover; 
+    border-radius: 2em;
+
+    
+}
+
+
+.formulaireprofil{
+    width: 30%;
+    height: 400px;
+    margin: 3% auto 5%;
+    padding:1%;
+    text-align: center;
+    color: white;
+    background-color: rgb(232, 13, 12, 0.5);
+    border-radius: 2em;
+box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+
+
+.infoprofil{
+    padding : 3%;
+    margin: 0 auto ;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(255, 120, 13, 0.5);
+}
+
+#reservationUser{
+    margin: 0 auto 2%;
+    padding:1%;
+    font-size: 1.5vw;
+    width: 30%;
+    text-align: center;
+    background-image:linear-gradient( rgba(255, 255, 255, 0.671),rgba(121, 23, 23, 0.541)) ;
+    color: white ;
+    border-radius: 2em;
+    box-shadow: 5px 5px 15px 5px #000000;
+    text-shadow: 3px 5px 2px #000000;
+
+    
+}
+
+#tableauReservationProfil{
+    padding-bottom: 10%;
+    margin: 5% auto ;
+    padding:2% 0%;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    color: black;
+    border-radius: 2em;
+    background-image: linear-gradient( rgba(189, 253, 169, 0.548),rgba(2, 109, 2, 0.514)) ;
+    box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+#backprofil{
+    margin: 0.5% 0%;
+    border: 2px black solid;
+    font-size: 1vw;
+    border-radius: 1em;
+    background-color: rgba(253, 240, 169, 0.746) ;
+
+
+    /* background-color: rgb(253, 228, 82) ; */
+}
+
+#tableReservationProfil td {
+    /* border-style: solid; */
+border-radius: 2em;
+    width: 20%;
+    padding: 1%;
+    
+    /* background-color: white ; */
+    background-color: rgb(253, 228, 82) ;
+
+
+}
+
+
+#tableReservationProfil tr {
+    /* border-style: solid; */
+    width: 13%;
+    /* background-color: white ; */
+    border-radius: 2em;
+    background-color: rgb(253, 96, 82) ;
+
+}
+
+
+/*-----------------------Planning-------------------*/
+/*-----------------------Planning-------------------*/
+/*-----------------------Planning-------------------*/
+/*-----------------------Planning-------------------*/
+/*-----------------------Planning-------------------*/
+/*-----------------------Planning-------------------*/
+/*-----------------------Planning-------------------*/
+/*-----------------------Planning-------------------*/
+
+#bodyPlanning{
+    text-align: center;
+
+    padding-top: 10%;
+    background-image: url(img/backplanning.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#titrePlanning{
+    margin : 0 auto 50px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2em;
+    border: 3px white solid;
+}
+
+.tablePlanning{
+    width: 70%;
+    margin: 0 auto 1%;
+    border-collapse: collapse;
+    box-shadow: 4px 4px 13px 4px #ffffff;
+   
+   
+    color :#ffffff;
+    background-image:linear-gradient( rgba(105, 120, 58, 0.856),rgb(47, 110, 134));
+    font-size: 0.8vw;
+    font-weight: bold;
+    border-radius: 3em;
+    
+
+}
+
+.tablePlanning a{
+    color: rgb(252, 67, 67);
+    font-size: large;
+    text-decoration: none;
+}
+
+.tablePlanning td {
+    width: 10%;
+    padding: 1%;
+    text-align: center;
+}
+
+.oui{
+    color: rgb(255, 145, 0);
+    font-size:x-large;
+}
+
+.non{
+    color: rgb(88, 43, 131);
+    font-size:x-large;
+}
+
+
+
+/*-----------------------Admin-------------------*/
+/*-----------------------Admin-------------------*/
+/*-----------------------Admin-------------------*/
+/*-----------------------Admin-------------------*/
+/*-----------------------Admin-------------------*/
+/*-----------------------Admin-------------------*/
+/*-----------------------Admin-------------------*/
+/*-----------------------Admin-------------------*/
+
+
+
+html {
+    height: 100%;
+}
+#bodyAdmin {
+    text-align: center;
+
+    padding-top: 10%;
+    background-image: linear-gradient(rgba(255, 255, 0, 0.568),rgba(255, 166, 0, 0.644));
+    height: auto;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#titreAdmin{
+    margin: 3% auto 3%;
+    width: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    font-size: 2vw;
+}
+
+.sectionadmin{
+    text-align: center;
+    margin:0px auto 130px;
+    width: 50%;
+    height: 400px;
+    border: 10px black solid;
+    border-radius: 2em 0em 0em 2em;
+    background-color: rgba(109, 71, 25, 0.39);
+    overflow-y: auto;    
+}
+
+.tableadmin{
+    padding: 1%;
+    font-size: 1vw;
+    margin: 10px auto 30px;
+    background-color: rgba(251, 159, 39, 0.733);
+    text-align: left;
+    border: 2px black solid;
+    border-radius: 1em;
+box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+.infoEmplacement{
+    margin: 0 auto 2%;
+    padding: 0% 2% 2%;
+    font-size: 1.5vw;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 2em;
+    border: 4px black solid;
+text-shadow: 3px 5px 2px #000000;
+box-shadow: 5px 5px 15px 5px #000000;
+
+
+}
+
+#modifPrix{
+    padding: 1%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    width: 50%;
+    text-align: center;
+    background-image:linear-gradient( rgba(255, 208, 80, 0.719),rgb(255, 255, 255),rgba(255, 217, 0, 0.486));
+    color: rgb(0, 0, 0) ;
+    border-radius: 2em;
+    font-size: 2vw;
+    border:10px rgb(255, 158, 79) solid;
+box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+.titretarif{
+    font-size: 3vw;
+    color: gold;
+    background-color: indianred;
+    border-radius: 0.5em;
+    
+}
+
+.inputtarif{
+    margin: 1.5%;
+    width: 5%;
+    font-size: x-large;
+    background-color: rgba(248, 128, 112, 0.534);
+    font-weight: bold;
+   text-align: center;
+   border-radius: 0.5em;
+
+
+}
+
+.inputtarifv{
+    margin: 5% 0 3% 0;
+    padding: 0 2%;
+    width: auto;
+    font-size: xx-large;
+    border-radius: 2em;
+
+}
+
+
+
+
+
+
+
+.erreur{
+
+    margin: 0 auto ;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white ;
+    font-size: 20px ;
+}
